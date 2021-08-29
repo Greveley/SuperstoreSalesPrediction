@@ -9,5 +9,7 @@ To generate pseudo-probabilities from the LSTM I trained and predicted using the
 
 Here is an example of the predictions on the test set. 
 
-![](https://github.com/Greveley/SuperstoreSalesPrediction/blob/main/plots/result.png)
+![](https://github.com/Greveley/SuperstoreSalesPrediction/blob/main/plots/results.png)
+
+As you can see there is still room for improvement but the long wavelength trend in the data is there. It struggles with the extreme peaks. Perhaps a shorter prediction length would help this? Food for thought. Definitely also would be good to use a larger dataset or augment the data to increase the number of training examples. 
 
